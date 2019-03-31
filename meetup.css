@@ -35,14 +35,9 @@ h1 {
     color: lightseagreen;
 }
 
-body {
-    //background-color: #f8f9fa !important;
-}
 
 section {
     background-color: white;
-    //margin-left: 2vw;
-    //margin-right: 2vw;
     padding-top: 2vh;
 }
 
@@ -71,12 +66,10 @@ blockquote:after {
     display:inline;
 }
 
-.codeconnective1 {
-    color: white;
-    background-color: lightseagreen;
-    //text-align: center;
-}
-
 h4 {
     text-align: center;
+}
+
+#copyright {
+    font-weight: 500;
 }

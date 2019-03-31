@@ -10,6 +10,10 @@ header1 {
     text-align: center
 }
 
+li {
+    line-height: 1.75;
+}
+
 .addWhiteSpace {
     padding: 2rem;
 }

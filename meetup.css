@@ -66,10 +66,14 @@ blockquote:after {
     display:inline;
 }
 
-h4 {
+h4, h3, .card-text {
     text-align: center;
 }
 
 #copyright {
     font-weight: 500;
+}
+
+.card {
+    border: none !important;
 }

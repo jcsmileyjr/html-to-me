@@ -10,6 +10,10 @@ header1 {
     text-align: center
 }
 
+.addWhiteSpace {
+    padding: 2rem;
+}
+
 header {
     text-align: center;
     background-color: lightseagreen;

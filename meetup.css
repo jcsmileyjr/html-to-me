@@ -48,6 +48,7 @@ section {
 
 footer {
     margin-top: 4vh;
+    margin-bottom: 2vh;
     text-align: center;
 }
 
@@ -68,4 +69,14 @@ blockquote:before {
 blockquote:after {
     content: close-quote;
     display:inline;
+}
+
+.codeconnective {
+    color: white;
+    background-color: lightseagreen;
+    //text-align: center;
+}
+
+h4 {
+    text-align: center;
 }

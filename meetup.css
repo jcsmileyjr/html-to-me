@@ -1,5 +1,5 @@
 
-header {
+header1 {
     margin-top: -4vh;
     background-image: url(assets/meetup1.jpg);
     height: 50vh;
@@ -10,8 +10,61 @@ header {
     text-align: center
 }
 
-.projectTitle {
-    color: white; 
-    display: inline-block;
-    font-size: 9vh;
+header {
+    text-align: center;
+    background-color: lightseagreen;
+    color: white;
+}
+
+img {
+    width: 100%;
+    
+    background-size: 100% 100%;
+    background-repeat: cover;
+    
+}
+
+@media screen and (min-width: 767px) {
+    .top {
+        height: 40vh;
+    }
+}
+
+h1 {
+    text-align: center;
+    color: lightseagreen;
+}
+
+body {
+    //background-color: #f8f9fa !important;
+}
+
+section {
+    background-color: white;
+    //margin-left: 2vw;
+    //margin-right: 2vw;
+    padding-top: 2vh;
+}
+
+footer {
+    text-align: center;
+}
+
+footer > ul {
+    list-style: none;
+}
+
+blockquote {
+    text-align: center;
+}
+
+
+blockquote:before {
+    content: open-quote;
+    display: inline;
+}
+
+blockquote:after {
+    content: close-quote;
+    display:inline;
 }

@@ -1,15 +1,4 @@
 
-header1 {
-    margin-top: -4vh;
-    background-image: url(assets/meetup1.jpg);
-    height: 50vh;
-    width: 100%;
-    background-size: 100% 100%;
-    background-repeat: no-repeat;
-    filter: grayscale(10%);
-    text-align: center
-}
-
 li {
     line-height: 1.75;
 }
@@ -25,11 +14,9 @@ header {
 }
 
 img {
-    width: 100%;
-    
+    width: 100%;    
     background-size: 100% 100%;
-    background-repeat: cover;
-    
+    background-repeat: cover;    
 }
 
 @media screen and (min-width: 767px) {
